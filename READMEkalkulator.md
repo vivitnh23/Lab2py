@@ -16,7 +16,7 @@ program ini dibuat menggunakan bahasa python dengan fitur :
 - Menawarkan opsi untuk melakukan perhitungan baru setelah hasil ditampilkan.
 
 # Flowchart Program 
-![Flowchart](
+![Flowchart](https://github.com/vivitnh23/Lab2py/blob/main/flowchartkalkulator.png?raw=true)
 
   # Kode Program
 ```python
