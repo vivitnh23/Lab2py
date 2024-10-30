@@ -20,8 +20,6 @@ Menghitung total harga dengan mengalikan harga tiket dan mengurangi 20% jika pen
 Untuk mengubah input menjadi huruf kecil, sehingga memudahkan validasi.
 -Penggunaan List:
 Menggunakan in untuk memeriksa validitas tipe tiket dalam list yang berisi "reguler" dan "vip".
-  Pemberian Pesan Kesalahan:
-Memberikan informasi kepada pengguna jika input tidak valid, yang membantu dalam interaksi pengguna.
 
 # Flowchart Program 
 ![Flowchart](https://github.com/vivitnh23/Lab2py/blob/main/flowchartdiskon.png?raw=true)
