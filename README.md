@@ -59,15 +59,13 @@ Apakah Anda memiliki kartu member? (ya/tidak): tidak
 Total harga yang harus dibayar: Rp 100000
 ````
 ## Cara Kerja
-Program mulai dengan meminta pengguna untuk memasukkan tipe tiket yang diinginkan (reguler atau VIP) menggunakan fungsi input().
-Kemudian, program menanyakan apakah pengguna memiliki kartu member dengan pertanyaan lain. input yang diterima
-diubah menjadi huruf kecil dengan lower(), sehingga proses validasi menjadi lebih mudah dan tidak tergantung pada kapitalisasi.
-Program memeriksa apakah tipe tiket yang dimasukkan termasuk dalam daftar valid ("reguler" atau "vip"):
-Jika valid, program akan melanjutkan ke langkah berikutnya.Jika tidak valid, program akan menampilkan pesan
-kesalahan dan berhenti menggunakan exit(). Menentukan Harga Tiket
-Berdasarkan tipe tiket yang valid, program menetapkan harga: Jika "reguler", harga ditetapkan ke Rp 50.000.
-Jika "vip", harga ditetapkan ke Rp 100.000. Program memeriksa status keanggotaan:
-Jika pengguna memiliki kartu member ("ya"), program menghitung total harga dengan diskon 20%.
-Jika pengguna tidak memiliki kartu member ("tidak"), program menggunakan harga tiket penuh.
-Jika status member tidak valid, program akan menampilkan pesan kesalahan dan berhenti.
-Total harga dihitung berdasarkan harga tiket dan status member yang telah divalidasi. Program mencetak total harga yang harus dibayar oleh pengguna menggunakan print().
+1.  Proses dimulai.
+2. *Input tipe tiket*: Pengguna memasukkan jenis tiket yang diinginkan, yang dapat berupa tiket reguler (Reg) atau VIP.
+3. *Input status member*: Pengguna memasukkan status keanggotaannya, apakah ia adalah seorang anggota (member) atau bukan.
+4. *Pengecekan tipe tiket*:
+   - Jika tiket adalah *Reguler (Reg)*, lanjut ke langkah berikutnya.
+   - Jika tiket adalah *VIP*, juga lanjut ke langkah berikutnya.
+5. *Pengecekan status member*:
+   - Jika pengguna adalah *member* (YA), maka akan diberikan diskon sebesar 20%.
+   - Jika pengguna *bukan member* (TIDAK), maka tidak ada diskon yang diberikan.
+6. *Akhir (End)*: Proses selesai.
