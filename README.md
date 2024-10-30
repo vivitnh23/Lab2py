@@ -1,4 +1,4 @@
-# Program Kalkulator Harga Tiket
+# Program Diskon Harga Tiket
 Program ini adalah program kalkulator harga tiket yang menghitung total biaya tiket berdasarkan 
 dua faktor utama: tipe tiket (reguler atau VIP) dan status keanggotaan (apakah pengguna memiliki kartu member atau tidak)
 
