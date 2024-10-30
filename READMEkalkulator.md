@@ -48,7 +48,9 @@ elif operator == '/':
 else:
     print("Operator tidak valid. Silakan pilih (+, -, *, /).")
 ```
-# Output ProgramMasukkan angka pertama: 8000
+# Output Program
+````
+Masukkan angka pertama: 8000
 Masukkan angka kedua: 5600
 Pilih operasi aritmatika:
 1. Penjumlahan (+)
