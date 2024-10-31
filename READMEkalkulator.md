@@ -62,9 +62,9 @@ Hasil dari penjumlahan: 13600.0
 ````
 # Cara Kerja
 ````
-Pengguna memasukkan 10 dan 5.
+Pengguna memasukkan 8000 dan 5600.
 Pengguna memilih operator +.
-Program menghitung 10 + 5 dan menampilkan hasil 15.0.
+Program menghitung 8000 + 5600 dan menampilkan hasil 13600.0.
 Program menanyakan apakah pengguna ingin melakukan perhitungan lagi.
 Jika pengguna memilih 'y', proses dimulai lagi; jika 'n', program berhenti.
 ````
